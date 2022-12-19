@@ -4,7 +4,7 @@
 ![home page](assets/images/overview.png)
 
 ## About
-This project is simply a test on our javaScritp knowledge so far where we have to implement a knapsack... acts more like a shopping cart;
+This project is simply a test on our javaScritp knowledge so far where we have to implement a program that checks for isomorphic strings;
 
 ## BUILT WITH
 This page is basically built with just
@@ -19,23 +19,23 @@ This page is basically built with just
 
 ## CLONE PROJECT
 * open your terminal
-* type and run this comand (`git clone git@github.com:RashJrEdmund/secret-hand-shake.git`)
+* type and run this comand (`git clone git@github.com:RashJrEdmund/isomorphic-strings.git`)
 * change to the project directory by entering: cd My-food
 * Note That: all this is done using your Linux terminal or git-bash for windows users.
 
 ## Command-line steps
 
-- $ git clone `https://github.com/RashJrEdmund/secret-hand-shake`
+- $ git clone `https://github.com/RashJrEdmund/isomorphic-strings`
 - $ `cd isomorphic-strings`
 - $ `git checkout feature/body`
 
 ## CONTRIBUTION
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/RashJrEdmund/secret-hand-shake/issues).
+Feel free to check the [issues page](https://github.com/RashJrEdmund/isomorphic-strings/issues).
 
 ## Live Site
 
-[Link](https://rashjredmund.github.io/secret-hand-shake/)
+[Link](https://rashjredmund.github.io/isomorphic-strings/)
 
 ## AUTHOR
 **RASH**
