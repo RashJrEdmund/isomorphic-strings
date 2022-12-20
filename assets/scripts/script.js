@@ -34,10 +34,10 @@ const checkIsomorphism = () => {
 
 checkBtn.addEventListener('click', () => {
   if ((firstWord.value === '') || (secondWord.value === '')) {
-    alert ('input a word to be compared with another')
+    alert('input a word to be compared with another')
   } else {
     if (firstWord.length !== secondWord.length) {
-      alert ('words are not of the same length. Not isomorphic')
+      alert('words are not of the same length. Not isomorphic')
     } else {
       display.innerHTML = checkIsomorphism()
     }
