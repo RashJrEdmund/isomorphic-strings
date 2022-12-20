@@ -22,22 +22,21 @@ const checkIsomorphism = () => {
         return 'The strigs are not isomorphic'
       }
     } else {
-      if(set.has(char2)){
-        return `its not isomorphic`
+      if (set.has(char2)) {
+        return 'its not isomorphic'
       }
       map.set(char1, char2)
       set.add(char2)
     }
-    }
-    return 'The strings are isomorphic'
-  } 
-
+  }
+  return 'The strings are isomorphic'
+}
 
 checkBtn.addEventListener('click', () => {
-  if((firstWord.value === '')||(secondWord.value === '')) {
+  if ((firstWord.value === '') || (secondWord.value === '')) {
     alert ('input a word to be compared with another')
   } else {
-    if(firstWord.length !== secondWord.length) {
+    if (firstWord.length !== secondWord.length) {
       alert ('words are not of the same length. Not isomorphic')
     } else {
       display.innerHTML = checkIsomorphism()
